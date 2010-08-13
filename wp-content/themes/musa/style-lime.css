@@ -1,0 +1,47 @@
+/*  
+Theme Name: TheUnstandard
+Theme URI: http://5thirtyone.com/
+Description: Farewell to the standard blog format
+Version: 1.2.1
+Author: Derek Punsalan
+Author URI: http://is.derekpunsalan.com/
+Image sizes: Main hero image for latest post is 593 x 225, secondary 293 x 150.
+Files must be hosted on your own domain in order for timthumb script to work
+properly re: thumbnailing / caching.
+*/
+body { background: #B0C721; color: #222; }
+a { border-color: #93A91D !important; color: #222; }
+	a:hover { background-color: #D2EE27; color: #000; }
+#site-name a { background: none; }
+#main-nav li a,
+.radius-link a,
+.for-tags { background: #D4DE9A; border-color: #8B9B2B; color: #4A540D; }
+#main-nav li a:hover,
+.radius-link a:hover { background: #8B9B2B; border-color: #47510C !important; color: #fff; }
+.post-comments a { background: #B0C721; color: #4A540D; }
+	.post-comments a:hover { background: #8B9B2B; border-color: #6D7C13; color: #fff; }
+.title-insert h3 a:hover { color: #000; }
+h3.module-title, h3.widgetTitle { border-bottom-color: #879B1B; border-top-color: #5A6610; }
+#site-name a, .post.single h2, .post.single h2 a { color: #222; }
+#site-name a:hover, .post.single h2 a:hover { background: none; color: #000 !important; }
+.post.single .entry { border-color: #5A6610; }
+.showhero #site-name a:hover, .post.single .showhero h2 a:hover { background: none; color: #fff !important; }
+.home.is-single,
+.commentlist li.comment, 
+.commentlist li.pingback { border-top-color: #5A6610; }
+.post.single .meta { border-top-color: #5A6610; color: #5A6610; }
+	.post.single .meta li.first { background: #D4DE9A; border: 1px solid #8B9B2B; }
+.post.single blockquote, 
+.post.single ul, 
+.post.single ol { color: #5A6610; }
+blockquote { border-color: #5A6610 !important; color: #5A6610 !important; }
+.gallery-item a img { border-color: #879B1B !important; }
+.sidebar-nextprev li,
+.sidebar-nextprev li.next,
+.sidebar-nextprev li a { border-left-color: #5A6610; color: #879B1B; }
+.sidebar-nextprev li.previous { border-right-color: #5A6610; }
+.sidebar-nextprev li a:hover { background: none; border-color: #5A6610; color: #5A6610; }
+.text-input { border-left-color: #6D7C13; border-top-color: #6D7C13; border: 1px solid #8B9B2B; }
+#categories li { color: #5A6610; }
+#searchWrap span { background: #D4DE9A; border-color: #8B9B2B; }
+#footer { border-top-color: #5A6610; }

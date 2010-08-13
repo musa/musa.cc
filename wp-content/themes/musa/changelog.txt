@@ -1,0 +1,9 @@
+TheUnstandard Changelog
+
+I guess I really should have been keeping one of these from the start :(
+No worries, updates will be detailed and included here for your browsing
+
+v1.2.1 #################################################
+
+-   Includes readme and changelog
+-   Option to enable / disable timthumb.php - automatic thumbnailing and cropping script

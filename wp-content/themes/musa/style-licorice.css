@@ -1,0 +1,47 @@
+/*  
+Theme Name: TheUnstandard
+Theme URI: http://5thirtyone.com/
+Description: Farewell to the standard blog format
+Version: 1.2.1
+Author: Derek Punsalan
+Author URI: http://is.derekpunsalan.com/
+Image sizes: Main hero image for latest post is 593 x 225, secondary 293 x 150.
+Files must be hosted on your own domain in order for timthumb script to work
+properly re: thumbnailing / caching.
+*/
+body { background: #222; color: #eee; }
+a { border-color: #444 !important; color: #eee; }
+	a:hover { background-color: #333; color: #fff; }
+#site-name a { background: none; }
+#main-nav li a,
+.radius-link a,
+.for-tags { background: #333; border-color: #555 !important; color: #aaa; }
+#main-nav li a:hover,
+.radius-link a:hover { background: #B1A929; border-color: #898213 !important; color: #222; }
+.post-comments a { background: #222; color: #aaa; }
+	.post-comments a:hover { background: #B1A929; border-color: #898213; color: #222; }
+.title-insert h3 a:hover { color: #fff; }
+h3.module-title, h3.widgetTitle { border-bottom-color: #333; border-top-color: #555; }
+#site-name a, .post.single h2, .post.single h2 a { color: #ddd; }
+#site-name a:hover, .post.single h2 a:hover { background: none; color: #fff !important; }
+.post.single .entry { border-color: #555; }
+.showhero #site-name a:hover, .post.single .showhero h2 a:hover { background: none; color: #fff !important; }
+.home.is-single,
+.commentlist li.comment, 
+.commentlist li.pingback { border-top-color: #555; }
+.post.single .meta { border-top-color: #555; color: #888; }
+	.post.single .meta li.first { background: #333; border: 1px solid #555; }
+.post.single blockquote, 
+.post.single ul, 
+.post.single ol { color: #888; }
+blockquote { border-color: #555 !important; color: #bbb !important; }
+.gallery-item a img { border-color: #333 !important; }
+.sidebar-nextprev li,
+.sidebar-nextprev li.next,
+.sidebar-nextprev li a { border-left-color: #555; color: #555; }
+.sidebar-nextprev li.previous { border-right-color: #555; }
+.sidebar-nextprev li a:hover { background: none; border-color: #555; color: #B1A929; }
+.text-input { border-left-color: #000; border-top-color: #000; border: 1px solid #333; }
+#categories li { color: #444; }
+#searchWrap span { background: #333; border-color: #555; }
+#footer { border-top-color: #555; }

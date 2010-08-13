@@ -1,0 +1,46 @@
+/*  
+Theme Name: TheUnstandard
+Theme URI: http://5thirtyone.com/
+Description: Farewell to the standard blog format
+Version: 1.2.1
+Author: Derek Punsalan
+Author URI: http://is.derekpunsalan.com/
+Image sizes: Main hero image for latest post is 593 x 225, secondary 293 x 150.
+Files must be hosted on your own domain in order for timthumb script to work
+properly re: thumbnailing / caching.
+*/
+body { background: #E8912A; }
+a { border-color: #FFC076 !important; color: #222; }
+	a:hover { background-color: #FFBB49; color: #000; }
+#site-name a { background: none; }
+#main-nav li a,
+.radius-link a,
+.for-tags { background: #FFC076; border-color: #BE6700 !important; color: #8B4B00; }
+#main-nav li a:hover,
+.radius-link a:hover { background: #8B4B00; border-color: #663700 !important; color: #fff; }
+.post-comments a { background: #E8912A; color: #8B4B00; }
+	.post-comments a:hover { background: #8B4B00; border-color: #663700; color: #fff; }
+.title-insert h3 a:hover { color: #000; }
+h3.module-title, h3.widgetTitle { border-bottom-color: #B17229; border-top-color: #663700; }
+#site-name a, .post.single h2, .post.single h2 a { color: #333; }
+#site-name a:hover, .post.single h2 a:hover { background: none; color: #000 !important; }
+.showhero #site-name a:hover, .post.single .showhero h2 a:hover { background: none; color: #fff !important; }
+.post.single .entry { border-color: #663700; }
+.home.is-single,
+.commentlist li.comment, 
+.commentlist li.pingback { border-top-color: #663700; }
+.post.single .meta li.first { background: #FFC076; border: 1px solid #BE6700; }
+.post.single blockquote, 
+.post.single ul, 
+.post.single ol { color: #663700; }
+blockquote { border-color: #663700 !important; color: #663700 !important; }
+.gallery-item a img { border-color: #FFC076 !important; }
+.sidebar-nextprev li,
+.sidebar-nextprev li.next,
+.sidebar-nextprev li a { border-left-color: #663700; color: #B17229; }
+.sidebar-nextprev li.previous { border-right-color: #663700; }
+.sidebar-nextprev li a:hover { background: none; border-color: #663700; color: #663700; }
+.text-input { border-left-color: #BE6700; border-top-color: #BE6700; border: 1px solid #663700; }
+#categories li { color: #B17229; }
+#searchWrap span { background: #FFC076; border-color: #663700; }
+#footer { border-top-color: #5A6610; }
