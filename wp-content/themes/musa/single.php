@@ -5,9 +5,7 @@
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 				<div class="post single fix" id="post-<?php the_ID(); ?>">
 				    <?php include (TEMPLATEPATH . '/includes/single_dynamic.php'); ?>
-					<ul class="meta">
-						<li class="first"><?php the_time('M jS Y') ?> <?php edit_post_link('edit', '(', ')'); ?></li>
-					</ul>
+						<p class="first"><?php the_time('M jS Y') ?> <?php edit_post_link('edit', '(', ')'); ?> | <?php the_category( ', ',$post->ID ); ?>  </p>
 					<div class="entry">
 						<?php the_content('<p>Leia o restante &raquo;</p>'); ?>
 						<?php wp_link_pages(); ?>

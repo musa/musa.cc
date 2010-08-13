@@ -151,23 +151,38 @@ ul li { list-style: circle; }
 .home.is-single { border-top: 1px solid #ccc; }
 .post.single { line-height: 1.4em; padding-top: 15px; }
 	.post.single h2, 
-	.post.single h2 a { border: 0; color: #333; font-size: 1.1em; line-height: 1.8em; }
-	.post.single h2 a:hover { color: #3c6c92; }
+	.post.single h2 a { border: 0; color: #222; font-size: 30px; line-height: 1em; }
+	.post.single h2 a:hover { color: #222; }
 	.post.single .showhero h2 a { color: #ddd; }
 	.post.single .showhero h2 a:hover { color: #fff; }
-	.post.single .entry { border-top: 1px solid #ccc; padding: 10px 10px 0 80px; clear: both; }
-	.post.single .meta { font-size: 0.8em; overflow: hidden; margin: 10px 0 20px 7px; padding: 0; }
-		.post.single .meta li { list-style: none; float: left; margin: 0 5px 0 0; padding: 2px 7px; }
-		.post.single .meta li.first { background: #eee; border: 1px solid #ccc; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding: 2px 7px; }
+	.post.single .entry { padding: 0 10px 0 30px; clear: both; }
+    .post.single .entry p {
+        font-size: 12px;
+    }
+	.post.single .meta { font-size: 0.8em; overflow: hidden; margin: 0 0 0 7px; padding: 0; }
+		.post.single .meta li { list-style: none; float: left; }
+		.post.single .meta li.first {  }
 	.post.single p { line-height: 1.4em; margin: 1.5em 0; }
+
+.post.single .first { 
+    line-height: 1.4em; 
+    margin: 0 0; 
+    font-size: 10px;
+}
+
+.post.single .first a { 
+    color: #222;
+    border: 0;
+    font-weight: normal;
+}
 		.post.single p a, 
 .post.single li a { font-weight: bold; }
 	.post.single h3 { margin-top: 20px; }
 	.post.single blockquote, 
 	.post.single ul, 
-	.post.single ol { color: #555; margin: 0 15px; }
-	.post.single ul li { margin: 0 20px; }
-	.post.single ol li { list-style: decimal; margin: 0 20px; }
+	.post.single ol { color: #555; }
+	.post.single ul li {  }
+	.post.single ol li { list-style: decimal;}
 	.post.single blockquote { border-left: 1px solid #ccc; font-style: italic; margin-left: 20px; padding-left: 10px; }
 	.post.single img.floatleft,
 	.post.single img.alignleft { float: left; margin: 4px 10px 0 0; }
@@ -243,27 +258,28 @@ ul.module-list,
 .legacy #respondform { margin-left: 80px; padding: 10px 0 0 0; }
 .nocomments { background: #ffffcc; border: 1px solid #BEBE3C; font-size: 0.8em; font-weight: bold; padding: 10px 0; text-align: center; }
 /* = style support for threaded comments */
-#comments-wrapper, 
-#comments-wrapper-form {
-    margin: 0 0 30px 0;
+#comments-wrapper {
+    margin: 0 10px 30px 30px;
+    background: #fff url(bg.jpg) repeat;
+    padding: 10px;
 }
 #comments-wrapper p { margin: 15px 0; }
-#comments-wrapper .navigation { margin: 0 0 25px 80px; }
-h3#comments { clear: both; margin: 20px 0 20px 80px; }
+#comments-wrapper .navigation { margin: 0 0 25px 0px; }
+h3#comments { clear: both; margin: 20px 0 20px px; }
 .commentlist { font-size: 0.9em; line-height: 1.4em; }
 	.commentlist li.comment, 
-	.commentlist li.pingback { border-top: 1px solid #ccc; margin: 0; padding: 7px 0 15px 80px; }
+	.commentlist li.pingback { border-top: 1px solid #ccc; margin: 0; padding: 7px 0 15px 0px; }
 	.commentlist li.comment-author-admin { border-color: #3c6c92; }
 	.commentlist li.comment ul, 
 	.commentlist li.comment ol, 
 	.commentlist li.comment blockquote { margin: 0 15px; }
 	.commentlist li.comment blockquote { border-left: 1px solid #ccc; color: #777; font-style: italic; padding-left: 10px; }
 	.commentlist ul.children { margin: 0 !important; padding: 0; }
-	.commentlist .children li.comment { list-style: none; margin: 15px 0 0 0; padding: 7px 0 0 45px; }
+	.commentlist .children li.comment { list-style: none; margin: 15px 0 0 0; padding: 7px 0 0 0px; }
 .comment-author img.avatar { float: right; margin: 0 7px 0 0; }
 .comment-author cite { font-style: normal; }
 .comment-meta { font-size: 0.8em; }
-#respond { clear: both; margin-left: 80px; padding: 10px 0 0 0; }
+#respond { clear: both; margin-left: 0px; padding: 10px 0 0 0; }
 li.comment #respond { margin-left: 0; }
 #respond h3 { margin: 0 0 15px 0; }
 #respond .text-input { font-size: 12px; margin-right: 4px; width: 160px; }
