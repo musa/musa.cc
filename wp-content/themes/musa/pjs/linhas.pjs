@@ -9,7 +9,7 @@ float h=window.innerHeight-3; //-11
 void setup() {
   size(w, h);
   strokeWeight(2);
-  frameRate(12);
+  frameRate(20);
   smooth();
   stroke(200);
   linhas = new ArrayList();
@@ -60,14 +60,10 @@ class Linha {
   void move() {
     if (this.y <= (height - 50)) {
       this.y++;
-    } else {
-      this.y = 0;
-    }
+    }    
     if (this.prevY <= (height - 50)) {
       this.prevY++;
-    } else {
-      this.prevY = 0;
-    }   
+    }
   }
 
   void desenha() {
