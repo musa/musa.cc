@@ -21,6 +21,9 @@ body {
     margin: 0 auto; 
     padding: 0 7px; 
     width: 960px; 
+z-index:20;
+    overflow:auto;
+
 }
 
 /* = basic reused style rules */
