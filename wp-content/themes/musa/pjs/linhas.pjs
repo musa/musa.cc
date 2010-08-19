@@ -9,11 +9,11 @@ float h=window.innerHeight-3; //-11
 void setup() {
   size(w, h);
   strokeWeight(2);
-  frameRate(20);
+  frameRate(60);
   smooth();
   stroke(200);
   linhas = new ArrayList();
-  for (int i=0; i<15; i++) {
+  for (int i=0; i<30; i++) {
     linhas.add(new Linha((int)random(width), (int)random(height), (int)random(width), (int)random(height)));
   }
 }
@@ -27,8 +27,8 @@ void draw() {
     l.desenha();
   }
   
-  if (linhas.size() > 20) {
-    for (int i=0; i<10; i++) {
+  if (linhas.size() > 50) {
+    for (int i=0; i<40; i++) {
       linhas.remove(i);
     }
   }
