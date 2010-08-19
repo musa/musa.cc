@@ -36,11 +36,11 @@ $colorScheme = get_bloginfo('template_directory')."/style-".$theme_options["colo
 </head>
 <!-- animacao de fundo com processingJS -->
 <body style="overflow: hidden;" onload="init();">
-
+ <canvas datasrc="<?php bloginfo('template_directory'); ?>/pjs/sombra.pjs" style="z-index:0;"></canvas>
 
 <!-- animacao de fundo com processingJS -->
 
-<div id="main-wrapper">
+<div id="main-wrapper" style="z-index:1;">
 
     <div id="leaderboard" class="fix">
         <div id="site-name">

@@ -39,11 +39,6 @@
         </div>
     </div>
 
-   <div id="container" style="top:0px; left:0px">
-    <canvas datasrc="<?php bloginfo('template_directory'); ?>/pjs/sombra.pjs">  </canvas>
-  </div>
-
-
 </div>
 <?php wp_footer(); ?>
 
