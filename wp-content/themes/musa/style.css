@@ -125,7 +125,7 @@ ul li { list-style: circle; }
 }
 
 /* = home posts */
-.left, .recent-leads { width: 607px; }
+.left, .recent-leads { width: 607px; position: relative; background: #fff; }
 
 .post-comments { position: absolute; right: 7px; top: -1px; z-index: 1; }
 	.post-comments a { -moz-border-radius-bottomleft: 3px; -moz-border-radius-bottomright: 3px; -webkit-border-bottom-left-radius: 3px; -webkit-border-bottom-right-radius: 3px; background: #fff; border: 1px solid #ddd; color: #555; display: block; font-size: 0.8em; padding: 7px; text-align: center; }
@@ -224,6 +224,7 @@ ul li { list-style: circle; }
     overflow: hidden;
     width: 300px; 
     background: #fff url(bg.jpg) repeat;
+    position: relative;
 }
 .home .right h3 { 
     font-size: 1em; 
