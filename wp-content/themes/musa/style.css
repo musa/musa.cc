@@ -207,23 +207,32 @@ ul li { list-style: circle; }
 }
 
 .home .right { 
+    margin: 30px 0 0 0;
     overflow: hidden;
-    width: 340px; 
+    width: 300px; 
+    background: #fff url(bg.jpg) repeat;
 }
 .home .right h3 { 
     font-size: 1em; 
-    padding: 9px 3px 7px; 
+    padding: 0 10px 0 20px; 
 }
-h3.module-title, h3.widgetTitle { 
+h3.module-title {
     border-top: 2px solid #666; 
     border-bottom: 1px solid #aaa; 
     font-size: 1em; 
     margin: 0 0 15px; 
     padding: 9px 3px 7px; 
 }
+
+
+h3.widgetTitle { 
+    font-size: 1em; 
+    margin: 0 0 15px; 
+    padding: 9px 3px 7px; 
+}
 h3.module-title a, 
 h3.widgetTitle a { border: 0; }
-.widgetContainer { margin: 0 0 20px 0; }
+.widgetContainer { margin: 0 0 20px 0; padding: 0; }
 	.widgetContainer .textwidget { font-size: 0.8em; line-height: 1.4em; margin: 0 7px; }
 ul.module-list, 
 .widgetContainer ul { margin: 0 0 20px 0; }
