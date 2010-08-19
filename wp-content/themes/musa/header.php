@@ -40,7 +40,7 @@ $colorScheme = get_bloginfo('template_directory')."/style-".$theme_options["colo
 
 <!-- animacao de fundo com processingJS -->
 
-<div id="main-wrapper" style="z-index:1;">
+<div id="main-wrapper">
 
     <div id="leaderboard" class="fix">
         <div id="site-name">
