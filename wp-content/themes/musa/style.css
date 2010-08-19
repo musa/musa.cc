@@ -26,6 +26,7 @@ canvas { margin: 0; position: fixed; left: 0; width: 100%; z-index: 0; }
     padding: 0 7px; 
     width: 960px; 
     z-index:20;
+    background: #fff;
 }
 
 /* = basic reused style rules */
