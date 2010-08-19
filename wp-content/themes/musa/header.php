@@ -27,8 +27,22 @@ $colorScheme = get_bloginfo('template_directory')."/style-".$theme_options["colo
 <?php } ?>
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php wp_head(); ?>
+
+<!-- animacao de fundo com processingJS -->
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/processing-0.9.7.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/init.js"></script>
+<!-- animacao de fundo com processingJS -->
+
 </head>
-<body>
+<!-- animacao de fundo com processingJS -->
+<body style="overflow: hidden;" onload="init();">
+  <div id="container" style="position:absolute; top:0px; left:0px">
+    <canvas datasrc="<?php bloginfo('template_directory'); ?>/pjs/sombra.pjs">  </canvas>
+  </div>
+
+
+<!-- animacao de fundo com processingJS -->
+
 <div id="main-wrapper">
     <div id="leaderboard" class="fix">
         <div id="site-name">

@@ -1,0 +1,64 @@
+Quadrado[] q;
+int sr, sg, sb;
+
+void setup() {
+  size();
+  smooth();
+  noStroke();  
+
+  
+  sr = (int)random(255);
+  sg = (int)random(255);
+  sb = (int)random(255);
+
+  q = new Quadrado[100];
+  
+  for (int i=0; i<q.length; i++) {
+    q[i] = new Quadrado((int)random(width), (int)random(height));
+  }
+}
+
+void draw() {
+  background(0);
+  
+  for (int i=0; i<q.length; i++) {
+    if (mouseX <= q[i].x && mouseY <= q[i].y) {
+      q[i].r = sr;
+      q[i].g = sg;
+      q[i].b = sb;
+    } else {
+      q[i].r = 255 - sr;
+      q[i].g = 255 - sg;
+      q[i].b = 255 - sb;
+    }
+    
+    q[i].mostra();
+  }
+}
+
+void mousePressed() {  
+  sr = (int)random(255);
+  sg = (int)random(255);
+  sb = (int)random(255);
+}
+
+class Quadrado {
+  int x, y;
+  int r, g, b, a;
+  int lado;
+
+  Quadrado(int x, int y) {
+    this.x = x;
+    this.y = y;
+    this.r = 0;
+    this.g = 0;
+    this.b = 200;
+    this.a = 100;
+    this.lado = 30;
+  }
+
+  void mostra() {
+    fill(this.r, this.g, this.b, this.a);
+    rect(this.x, this.y, this.lado, this.lado);
+  }  
+}
