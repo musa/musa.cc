@@ -10,7 +10,7 @@ Files must be hosted on your own domain in order for timthumb script to work
 properly re: thumbnailing / caching.
 */
 body { 
-    background: #fff; 
+
     color: #222; 
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
     font-size: 16px; 
@@ -21,6 +21,7 @@ body {
     margin: 0 auto; 
     padding: 0 7px; 
     width: 960px; 
+    z-index:20;
 }
 
 /* = basic reused style rules */
