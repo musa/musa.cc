@@ -9,8 +9,9 @@ float h=window.innerHeight-3; //-11
 void setup() {
   size(w, h);
   strokeWeight(2);
+  frameRate(12);
   smooth();
-  stroke(50);
+  stroke(200);
   linhas = new ArrayList();
   for (int i=0; i<15; i++) {
     linhas.add(new Linha((int)random(width), (int)random(height), (int)random(width), (int)random(height)));
