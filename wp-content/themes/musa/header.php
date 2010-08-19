@@ -38,10 +38,10 @@ $colorScheme = get_bloginfo('template_directory')."/style-".$theme_options["colo
         </div>
         <div class="nav-container">
         <ul id="main-nav" class="right">
-            <li><a href="#" title="Sobre">Sobre</a></li>
-            <li><a href="#" title="Projetos">Projetos</a></li>
-            <li><a href="#" title="Oficinas">Oficinas</a></li>
-            <li><a href="#" title="Wiki">Wiki</a></li>
+            <li><a href="<?php echo get_settings('home'); ?>/sobre" title="Sobre">Sobre</a></li>
+            <li><a href="<?php echo get_settings('home'); ?>/category/projetos/" title="Projetos">Projetos</a></li>
+            <li><a href="<?php echo get_settings('home'); ?>/category/oficinas/" title="Oficinas">Oficinas</a></li>
+            <li><a href="<?php echo get_settings('home'); ?>/wiki" title="Wiki">Wiki</a></li>
         </ul>
         </div>
     </div>

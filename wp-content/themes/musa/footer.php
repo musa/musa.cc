@@ -16,22 +16,22 @@
     <div id="footer">
         <div class="footer-box">
             <p class="titulo">Sobre nós:</p>
-            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/">O MuSA</a></p>
-            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/">Manifestinho</a></p>
+            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/sobre/">O MuSA</a></p>
+            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/manifestinho/">Manifestinho</a></p>
             <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/">Na imprensa</a></p>
             <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/">Endereço</a></p>            
         </div>        
-        
+
         <div class="footer-box">
             <p class="titulo">Acompanhe:</p>
             <p class="footer-item"><a href="<?php bloginfo('rss2_url'); ?>">RSS</a></p>
-            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/">Lista de e-mail</a></p>
-            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/">Wiki</a></p>
+            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/cgi-bin/mailman/listinfo/geral">Lista de e-mail</a></p>
+            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/wiki">Wiki</a></p>
         </div>
 
         <div class="footer-box">
             <p class="titulo">Entre em contato:</p>
-            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/">contato@musa.cc</a></p>
+            <p class="footer-item"><a href="#">contato@musa.cc</a></p>
         </div>
 
         <div id="licenca">
