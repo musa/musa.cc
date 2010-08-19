@@ -1,8 +1,11 @@
 Quadrado[] q;
 int sr, sg, sb;
 
+float w=window.innerWidth-15;  //-23
+float h=window.innerHeight-3; //-11
+
 void setup() {
-  size();
+  size(w,h);
   smooth();
   noStroke();  
 

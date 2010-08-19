@@ -35,7 +35,7 @@ $colorScheme = get_bloginfo('template_directory')."/style-".$theme_options["colo
 
 </head>
 <!-- animacao de fundo com processingJS -->
-<body onload="init();">
+<body style="overflow: hidden;" onload="init();">
  <canvas datasrc="<?php bloginfo('template_directory'); ?>/pjs/sombra.pjs"> </canvas>
 
 <!-- animacao de fundo com processingJS -->
