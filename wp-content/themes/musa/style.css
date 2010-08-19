@@ -17,7 +17,7 @@ body,html {
     
 }
 
-canvas { margin: 0; left: 0; width: 100%; z-index: 0; }
+canvas { margin: 0; position: fixed; left: 0; width: 100%; z-index: 0; }
 
 
 /* = main structure */
@@ -88,6 +88,7 @@ ul li { list-style: circle; }
 #leaderboard { 
     padding: 5px 10px 10px 10px; 
     position: relative; 
+    z-index:20;
 }
 
 #site-name { 
@@ -110,7 +111,8 @@ ul li { list-style: circle; }
 .nav-container { 
     float: right;
     margin: 10px 0 0 0; 
-    width: 380px; 
+    width: 380px;
+    z-index:20;
 }
 
 #main-nav { 
@@ -212,6 +214,7 @@ ul li { list-style: circle; }
     border-top: 1px solid #aaa;  
     margin: 0 0 0 0; 
     padding: 15px 3px 0 10px;
+    z-index:20;
 }
 
 .home .right { 
@@ -305,6 +308,7 @@ li.comment #respond { margin-left: 0; }
 
 #blogs { 
     margin: 0 0 20px 10px; 
+    z-index:20;
 }
 
 #blogs .item {
@@ -372,6 +376,7 @@ z-index:20;
 .footer-box {
     float: left;
     margin: 0 40px 0 0;
+    z-index:20;
 }
 
 #licenca {
