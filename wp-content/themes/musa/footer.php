@@ -18,8 +18,8 @@
             <p class="titulo">Sobre nós:</p>
             <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/sobre/">O MuSA</a></p>
             <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/manifestinho/">Manifestinho</a></p>
-            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/">Na imprensa</a></p>
-            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/">Endereço</a></p>            
+            <p class="footer-item"><a href="<?php echo get_settings('home'); ?>/pressrelease/">Na imprensa</a></p>
+            <p class="footer-item"><a href="http://wikimapia.org/#lat=-26.3003403&lon=-48.8584328&z=13&l=9&m=b">Endereço</a></p>            
         </div>        
 
         <div class="footer-box">

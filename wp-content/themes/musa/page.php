@@ -9,16 +9,14 @@
   			    <?php edit_post_link(' (edit this)', '', ''); ?>
   			  </div>
   			  <div class="entry">
-  					<?php the_content('<p>Read the rest of this entry &raquo;</p>'); ?>
+  					<?php the_content('<p>Leia o restante &raquo;</p>'); ?>
   				</div>
   			</div>
   		<?php endwhile; else : ?>
   		<?php endif; ?>
   	</div>
   </div>
-  <div class="right">
-    <?php include (TEMPLATEPATH . '/sidebar.php'); ?>
-  </div>
+ 
 </div>
-<?php include (TEMPLATEPATH . '/show_categories.php'); ?>
+
 <?php get_footer(); ?>
