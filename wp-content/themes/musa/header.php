@@ -40,10 +40,8 @@ $colorScheme = get_bloginfo('template_directory')."/style-".$theme_options["colo
 
 <!-- animacao de fundo com processingJS -->
 
-<div id="main-wrapper">
-   <div id="container" style="top:0px; left:0px">
+<div id="main-wrapper" style="position:absolute; top:0px; left:0px">
     <canvas datasrc="<?php bloginfo('template_directory'); ?>/pjs/sombra.pjs">  </canvas>
-  </div>
 
     <div id="leaderboard" class="fix">
         <div id="site-name">
