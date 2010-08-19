@@ -61,6 +61,7 @@ class Linha {
       this.y++;
     } else {
       this.y = 0;
+    }
     if (this.prevY <= (height - 50)) {
       this.prevY++;
     } else {
