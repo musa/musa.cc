@@ -59,13 +59,10 @@ class Linha {
   void move() {
     if (this.y <= (height - 50)) {
       this.y++;
-    } else {
-      this.y = 0;
+    } 
     if (this.prevY <= (height - 50)) {
       this.prevY++;
-    } else {
-      this.prevY = 0;
-    }   
+    }    
   }
 
   void desenha() {
